@@ -29,3 +29,8 @@ Use this as the "Publish command" if needed by hosting services such as Netlify.
 ## Resources
 
 <small>The starter was inspired by [11ty Sass Skeleton](https://github.com/5t3ph/11ty-sass-skeleton) by [@5t3ph](https://twitter.com/5t3ph)</small>
+
+The Hymn of the Sea was written by William Cullen Bryant, a American poet, editor, and Journalist
+
+![ocean](https://github.com/RVCC-IDMX/poem-site-ahdevries21/assets/145778459/622df15a-36ae-41b8-b99a-96f19ae38236)
+This Photo was taken by Silas Baisch on Upsplash
