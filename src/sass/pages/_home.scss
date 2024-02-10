@@ -1,16 +1,57 @@
-/* home */
-@use "../abstracts/variables" as var;
-@use "../base/typography" as type;
-
-body {
-  font-family: type.$font;
-  background-color: var.$bg-very-light;
-  width: min(100% - 2rem, 60ch);
+body{
+  background-color:rgb(229, 207, 177);
+  background-image: url(https://wallpapercave.com/wp/wp2021760.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-inline: auto;
-  margin-block: 4rem;
+  padding: 60px;
 }
 
-h1 {
-  color: var.$primary-color;
-  text-align: center;
+header{
+  font-family: 'Lugrasimo', cursive;
+  font-size:19pt;
+  text-align:center;
+  font-weight:bold;
+}
+
+.border{
+  border:1px solid black;
+}
+
+.poem {
+  text-align:left;
+  font-family: 'Lugrasimo', cursive;
+  font-size: 13pt;
+  font-style: oblique;
+  line-height:50px;
+
+}
+
+span{
+  float:left;
+  width:0.7em;
+  font-size:60pt;
+  font-weight: bolder;
+  line-height:80%;
+}
+
+
+figcaption{
+  font-family: 'Lugrasimo', cursive;
+  text-align:center;
+  align-items:center;
+}
+caption{
+  font: size 10pt;
+}
+
+figcaption img{
+  max-width:100%;
+  height:auto; 
+  border:8px double brown;
+  
+}
+
+.author{
+    font-family: 'Lugrasimo', cursive;
 }
