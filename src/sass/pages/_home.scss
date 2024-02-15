@@ -1,55 +1,84 @@
-body{
-  background-color:rgb(229, 207, 177);
+body {
+
+  background-color: rgb(229, 207, 177);
   background-image: url(https://wallpapercave.com/wp/wp2021760.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-inline: auto;
-  padding: 60px;
+  // padding: 60px;
+  padding-block: 2rem;
+  padding-inline: 0.5rem;
+  display: grid;
+  gap: 2rem;
 }
 
-header{
+.grow-text {
   font-family: 'Lugrasimo', cursive;
-  font-size:19pt;
-  text-align:center;
-  font-weight:bold;
+  // https://royalfig.github.io/fluid-typography-calculator/
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.7777777777777778rem + 1.4814814814814816vw, 3rem);
+  font-size: 0.85rem;
+  font-size: clamp(0.85rem, 0.42rem + 1.72vw, 3rem);
 }
 
-.border{
-  border:1px solid black;
+header {
+  // font-size: 19pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrapper {
+  display: grid;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-size: clamp(2rem, 1.4rem + 3vw, 5rem);
+}
+
+.border {
+  border: 1px solid black;
 }
 
 .poem {
-  text-align:left;
-  font-family: 'Lugrasimo', cursive;
-  font-size: 13pt;
+  text-align: left;
+  // font-family: 'Lugrasimo', cursive;
+  // font-size: 13pt;
   font-style: oblique;
-  line-height:50px;
+  // line-height: 50px;
+  line-height: 2.1;
+  margin-inline: auto;
 
 }
 
-span{
-  float:left;
-  width:0.7em;
-  font-size:60pt;
+span {
+  float: left;
+  width: 0.7em;
+  font-size: 60pt;
   font-weight: bolder;
-  line-height:80%;
+  line-height: 80%;
+  font-size: 2em;
 }
 
 
-figcaption{
-  font-family: 'Lugrasimo', cursive;
-  text-align:center;
-  align-items:center;
+figcaption {
+  // font-family: 'Lugrasimo', cursive;
+  text-align: center;
+  align-items: center;
+  font-size: 0.75em;
 }
 
 
-figcaption img{
-  max-width:100%;
-  height:auto; 
-  border:8px double brown;
-  
+figcaption img {
+  max-width: 100%;
+  height: auto;
+  border: 8px double brown;
+
 }
 
-.author{
-    font-family: 'Lugrasimo', cursive;
+.author {
+  // font-family: 'Lugrasimo', cursive;
+  font-size: 0.75em;
+  font-weight: normal;
 }
